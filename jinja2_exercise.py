@@ -4,3 +4,6 @@ template = jinja2.Template("hello {{where}}")
 print(template.render(where = 'World'))
 
 print(template.render(where = 'HARRY'))
+
+print(template.render(where = 'HARRY'))
+
